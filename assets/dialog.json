@@ -8,20 +8,20 @@
             "content": "你好呀",
             "nextXianzhe": ["0001"]
         }, {
-            "content": "…… 你想干啥",
+            "content": "你这是想干啥呀",
             "nextXianzhe": ["0002"]
         }],
         "nextUser": ["1000"]
     }, {
         "id": "0001",
         "details": [
-            ["我想你了"]
+            ["新红, 怎么办, 我想你了"]
         ],
         "nextXianzhe": ["0041"]
     }, {
         "id": "0002",
         "details": [
-            ["……", "我没想干啥", "就是想你了"]
+            ["我没想干啥", "就是想你了"]
         ],
         "nextXianzhe": ["0041"]
     }, {
@@ -39,20 +39,79 @@
             ["话是没错啦……", "不过，反正你也不能输入文字~"]
         ],
         "responses": [{
-            "content": "……"
+            "content": "……",
+            "nextXianzhe": ["0007"]
         }, {
-            "content": "算你狠"
+            "content": "算你狠",
+            "nextXianzhe": ["0007"]
+        }]
+    }, {
+        "id": "0007",
+        "details": [
+            ["你可以问其它的呀"]
+        ],
+        "responses": [{
+            "content": "你喜欢我什么呀?",
+            "nextXianzhe": ["0008"]
+        }, {
+            "content": "你什么时候去上海?",
+            "nextXianzhe": ["0009"]
+        }]
+    }, {
+        "id": "0008",
+        "details": [
+            [
+              "你改变了我的一些观点啊", 
+              "以前我特渴望去改变世界什么的, 你让我发觉, 我错了.",
+              "我们聊天的时候, 我心里会笑, 会温暖一些. 有时我也在想, 我不知道是不是爱情.", 
+              "当我和你聊天的时候, 就会感觉你在, 我们就在一个封闭的环境里, 只有你我."
+            ]
+        ],
+        "responses": [{
+            "content": "……"
+        }]
+    }, {
+        "id": "0009",
+        "details": [
+            ["……", "下一题"]
+        ],
+        "responses": [{
+            "content": "……",
+            "nextXianzhe": ["0007"]
+        }]
+    }, {
+        "id": "0035",
+        "details": [
+            ["好吧", "不过, 我理你啊"]
+        ],
+        "responses": [{
+            "content": "……",
+            "nextXianzhe": ["0003"]
+        }]
+    }, {
+        "id": "0036",
+        "details": [
+            [
+              "我当然想的美了",
+              "还没回答想不想我呢"
+            ]
+        ],
+        "responses": [{
+            "content": "不想理你",
+            "nextXianzhe": ["0035"]
+        }, {
+            "content": "……",
+            "nextXianzhe": ["0003"]
         }]
     }, {
         "id": "0037",
         "details": [
             [
-              "ok",
               "还没回答想不想我呢"
             ]
         ],
         "responses": [{
-            "content": "回答你, 有啥好处不",
+            "content": "流氓",
             "nextXianzhe": ["0038"]
         }, {
             "content": "……",
@@ -61,10 +120,11 @@
     }, {
         "id": "0038",
         "details": [
-            ["好像没有哎"]
+            ["不是吧"]
         ],
         "responses": [{
-            "content": "那不就得了"
+            "content": "……",
+            "nextXianzhe": ["0003"]
         }]
     }, {
         "id": "0040",
@@ -72,25 +132,22 @@
             ["嘿嘿，", "现在想我也行"]
         ],
         "responses": [{
-            "content": "……"
+            "content": "……",
+            "nextXianzhe": ["0003"]
         }]
     }, {
         "id": "0041",
         "details": [
             [
-                "你有没有想我 \\(^o^)/~"
+                "你有没有想我 \\(^.^)/~"
             ]
         ],
         "responses": [{
-            "content": "先回答我, 你是想我哪儿了?",
+            "content": "那你是想我哪儿了?",
             "nextXianzhe": ["0042"]
         }, {
             "content": "想你个大头鬼",
             "nextXianzhe": ["0043"]
-        }, {
-
-            "content": "……",
-            "nextXianzhe": ["0003"]
         }]
     }, {
         "id": "0042",
@@ -104,7 +161,7 @@
         ],
         "responses": [{
             "content": "想的美",
-            "nextXianzhe": ["0037"]
+            "nextXianzhe": ["0036"]
         }, {
             "content": "……",
             "nextXianzhe": ["0003"]
@@ -128,10 +185,6 @@
     "fromUser": [{
         "id": "1000",
         "brief": "爱好",
-        "details": [
-            "你有什么业余爱好呀？",
-            "羡辙的业余时间都做什么呀？"
-        ],
-        "nextXianzhe": ["0007"]
+        "details": ["……"]
     }]
 }
